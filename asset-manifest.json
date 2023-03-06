@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/soa-frontend/build/static/css/main.fb230432.css",
+    "main.js": "/soa-frontend/build/static/js/main.4ecbea14.js",
+    "index.html": "/soa-frontend/build/index.html",
+    "main.fb230432.css.map": "/soa-frontend/build/static/css/main.fb230432.css.map",
+    "main.4ecbea14.js.map": "/soa-frontend/build/static/js/main.4ecbea14.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fb230432.css",
+    "static/js/main.4ecbea14.js"
+  ]
+}

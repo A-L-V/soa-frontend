@@ -15,7 +15,7 @@ const  HomeScreen = (props) => {
     return () => {
       
     };
-  });
+  }, []);
 
 
   return (

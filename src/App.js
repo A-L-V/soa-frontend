@@ -10,9 +10,7 @@ function App() {
     <BrowserRouter>
       <div className="grid-container">
         <header className="header">
-
           <div className="brand">
-            <button >&#9776;</button>
             <Link to="/">
               <img src='https://plazavea.vteximg.com.br/arquivos/LogoPlazaVea.svg' alt='imagen'/>            
 

@@ -1,12 +1,10 @@
-import React, { useState, useEffect } from 'react';
+import React, {  useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { useSelector, useDispatch } from 'react-redux';
 import { listProducts } from '../actions/productActions';
-import Rating from './../components/Rating'
+
 const  HomeScreen = (props) => {
-  const [searchKeyword, setSearchKeyword] = useState('');
-  const [sortOrder, setSortOrder] = useState('');
-  const category = '';
+
   const productList = useSelector((state) => state.productList);
   const { products, loading, error } = productList;
   
@@ -15,27 +13,16 @@ const  HomeScreen = (props) => {
     dispatch(listProducts());
 
     return () => {
-      //
+      
     };
-  }, [category]);
+  });
 
-
-  const submitHandler = (e) => {
-    e.preventDefault();
-    dispatch(listProducts(category, searchKeyword, sortOrder));
-  };
-  const sortHandler = (e) => {
-    setSortOrder(e.target.value);
-    dispatch(listProducts(category, searchKeyword, sortOrder));
-  };
 
   return (
     <>
-      {category && <h2>{category}</h2>}
-
       <ul className="filter">
 
-        
+
       </ul>
       {loading ? (
         <div>Loading...</div>
@@ -59,10 +46,6 @@ const  HomeScreen = (props) => {
                 <div className="product-brand">{product.nombre}</div>
                 <div className="product-price">${product.precio}</div>
                 <div className="product-rating">
-                  <Rating
-                    value={product.rating}
-                    text={product.numReviews + ' reviews'}
-                  />
                 </div>
               </div>
             </li>

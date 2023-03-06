@@ -2,7 +2,7 @@
   "name": "soa-frontend",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://a-l-v.github.io/soa-frontend",
+  "homepage": "http://a-l-v.github.io/soa-frontend/build",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",

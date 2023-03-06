@@ -1,8 +1,8 @@
 import React from 'react';
-import { BrowserRouter, Route, Link, Routes } from 'react-router-dom';
+//import { BrowserRouter, Route, Link, Routes } from 'react-router-dom';
 import './App.css';
-import HomeScreen from './screens/HomeScreen';
-import ProductsScreen from './screens/ProductsScreen';
+//import HomeScreen from './screens/HomeScreen';
+//import ProductsScreen from './screens/ProductsScreen';
 import logo from './logo.svg';
 function App() {
 

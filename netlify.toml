@@ -1,6 +1,3 @@
 [build]
   publish = "build"
-  command = ""
-  functions = "functions"
   CI = npm run build
-  base = "/"

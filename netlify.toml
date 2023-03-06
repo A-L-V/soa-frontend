@@ -1,4 +1,6 @@
 [build]
-
-functions = "functions"
-CI = npm run build
+  publish = "build"
+  command = ""
+  functions = "functions"
+  CI = npm run build
+  base = "/"
